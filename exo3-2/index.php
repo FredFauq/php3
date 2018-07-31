@@ -12,7 +12,7 @@ $number2 = 35;
   <?php
     while ($number1 <= 20)
     {
-      echo $number1 * $number2 . ' @ ';
+      echo $number1 * $number2 . '  ';
       $number1++;
     }
   ?>
