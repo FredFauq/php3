@@ -5,10 +5,12 @@
   <title>Exercice 5</title>
 </head>
 <body>
+  <p>
   <?php
-  for ($counter = 1 ; $counter <= 15 ; $counter++){
+  for ($counter = 1; $counter <= 15; $counter++){
     echo 'On y arrive presque.';
     }
   ?>
+  </p>
 </body>
 </html>

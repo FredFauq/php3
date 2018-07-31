@@ -5,10 +5,19 @@
   <title>Exercice 8</title>
 </head>
 <body>
+  <!-- PHP entre balise <p> -->
+  <p>
   <?php
-  for ($counter = 200 ; $counter >=0 ; $counter = $counter - 12){
+  // Initialisation de la variable, condition si >= à 0, décrémentation par pas de 12
+  for ($counter = 200 ; $counter >=0 ; $counter-= 12){
+    // Passage à la ligne par balise <br /> après sortie et retour en PHP
+  ?>
+    <br />
+  <?php
+  // Affichage par la fonction echo de la phrase
     echo 'Enfin !!!!';
     }
   ?>
+  </p>
 </body>
 </html>

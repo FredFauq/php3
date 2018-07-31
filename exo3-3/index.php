@@ -1,6 +1,6 @@
 <?php
-$number1 = 100;
-$number2 = 2;
+$firstNumber = 100;
+$secondNumber = 2;
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -10,10 +10,10 @@ $number2 = 2;
 </head>
 <body>
   <?php
-    while ($number1 >= 10)
+    while ($firstNumber >= 10)
     {
-      echo $number = $number1 * $number2 . ' @ ' ;
-      $number1-- ;
+      echo $resultNumber = $firstNumber * $secondNumber . '  ' ;
+      $firstNumber-- ;
     }
   ?>
 </body>
