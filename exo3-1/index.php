@@ -1,6 +1,5 @@
 <?php
-$number1 = 0;
-$number2 = 35;
+$number = 0;
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -11,10 +10,10 @@ $number2 = 35;
 <body>
   <p>
     <?php
-    while ($number1 <= 20)
+    while ($number < 10)
     {
-      echo $number1 * $number2 ;
-      $number1++;
+      echo $number . ' ';
+      $number++;
     }
     ?>
   </p>
